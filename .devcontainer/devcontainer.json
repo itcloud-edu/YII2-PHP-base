@@ -2,7 +2,7 @@
   "name": "PHP 8.5 FPM + Nginx",
   "dockerComposeFile": "../docker-compose.nginx.yml",
   "service": "php",
-  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "workspaceFolder": "/var/www/html",
   "forwardPorts": [8080],
   "customizations": {
     "vscode": {
