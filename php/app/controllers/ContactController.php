@@ -4,7 +4,7 @@ namespace app\controllers;
 
 use yii\web\Controller;
 
-class SiteController extends Controller
+class ContactController extends Controller
 {
     public function actions()
     {
