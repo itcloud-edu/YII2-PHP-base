@@ -16,22 +16,22 @@ $config = [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'K042FAlHEmmoXerrmMe-vbEo3rIR5-8o',
         ],
-        'cache' => [
-            'class' => 'yii\caching\FileCache',
-        ],
-        'user' => [
-            'identityClass' => 'app\models\User',
-            'enableAutoLogin' => true,
-        ],
-        'errorHandler' => [
-            'errorAction' => 'site/error',
-        ],
-        'mailer' => [
-            'class' => \yii\symfonymailer\Mailer::class,
-            'viewPath' => '@app/mail',
-            // send all mails to a file by default.
-            'useFileTransport' => true,
-        ],
+        // 'cache' => [
+        //     'class' => 'yii\caching\FileCache',
+        // ],
+        // 'user' => [
+        //     'identityClass' => 'app\models\User',
+        //     'enableAutoLogin' => true,
+        // ],
+        // 'errorHandler' => [
+        //     'errorAction' => 'site/error',
+        // ],
+        // 'mailer' => [
+        //     'class' => \yii\symfonymailer\Mailer::class,
+        //     'viewPath' => '@app/mail',
+        //     // send all mails to a file by default.
+        //     'useFileTransport' => true,
+        // ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [

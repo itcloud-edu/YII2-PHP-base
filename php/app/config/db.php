@@ -12,3 +12,12 @@ return [
     //'schemaCacheDuration' => 60,
     //'schemaCache' => 'cache',
 ];
+
+
+// return [
+//     'class' => 'yii\db\Connection',
+//     'dsn' => 'pgsql:host=localhost;port=5432;dbname=yii2basic',
+//     'username' => 'postgres', // или ваш пользователь БД
+//     'password' => 'your_password', // укажите пароль
+//     'charset' => 'utf8',
+// ];
